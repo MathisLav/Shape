@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/xtraits_bg">
+
+    <ImageView
+        android:id="@+id/IMG_live1"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cross"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="1dp" />
+    <ImageView
+        android:id="@+id/IMG_live2"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cross"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="1dp"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:textSize="43dip"
+        android:textColor="@color/white"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/high_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:textSize="25dip"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/CIRC_shadow"
+        android:src="@drawable/circle_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/RECT_shadow"
+        android:src="@drawable/rectangle_shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/IMG_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/IMG_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/IMG_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/IMG_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/IMG_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/IMG_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/IMG_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/IMG_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
